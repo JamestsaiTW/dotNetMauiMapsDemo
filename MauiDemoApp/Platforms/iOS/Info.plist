@@ -28,5 +28,9 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/appicon.appiconset</string>
+  <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+  <string>允許 App 能隨時使用您的位置資訊?</string>
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>允許僅在使用 App 前景執行時使用您的位置資訊?</string>
 </dict>
 </plist>

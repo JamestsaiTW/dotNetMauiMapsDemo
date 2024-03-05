@@ -12,7 +12,8 @@ namespace MauiDemoApp
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("MaterialIcons-Regular.ttf", "MR");
-                });
+                })
+                .UseMauiMaps();
 
 #if DEBUG
     		builder.Logging.AddDebug();
