@@ -6,6 +6,15 @@
     xmlns:pages="clr-namespace:MauiDemoApp.Pages"
     Title="dotMaui Maps Demo">
 
-    <ShellContent Title="Home" ContentTemplate="{DataTemplate pages:MainPage}" Route="MainPage" />
-    <ShellContent Title="Default Maps Demo" ContentTemplate="{DataTemplate pages:DefaultMapsPage}" Route="DefaultMapsPage" />
+    <ShellContent Title="Home" ContentTemplate="{DataTemplate pages:MainPage}" Route="MainPage">
+        <ShellContent.Icon>
+            <FontImageSource FontFamily="MR" Glyph="&#xea44;" />
+        </ShellContent.Icon>
+    </ShellContent>
+
+    <ShellContent Title="Default Maps Demo" ContentTemplate="{DataTemplate pages:DefaultMapsPage}" Route="DefaultMapsPage">
+        <ShellContent.Icon>
+            <FontImageSource FontFamily="MR" Glyph="&#xe7ee;" />
+        </ShellContent.Icon>
+    </ShellContent>
 </Shell>
