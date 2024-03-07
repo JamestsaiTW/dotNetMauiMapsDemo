@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiDemoApp.Pages.DefaultMapsTWPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:maps="http://schemas.microsoft.com/dotnet/2021/maui/maps"
+    xmlns:sensors="clr-namespace:Microsoft.Maui.Devices.Sensors;assembly=Microsoft.Maui.Essentials"
+    Title="Default Maps Demo">
+    <Grid>
+        <maps:Map x:Name="map">
+            <x:Arguments>
+                <maps:MapSpan>
+                    <x:Arguments>
+                        <sensors:Location>
+                            <x:Arguments>
+                                <x:Double>23.65743215</x:Double>
+                                <x:Double>120.9696147</x:Double>
+                            </x:Arguments>
+                        </sensors:Location>
+                        <x:Double>4</x:Double>
+                        <x:Double>1</x:Double>
+                    </x:Arguments>
+                </maps:MapSpan>
+            </x:Arguments>
+        </maps:Map>
+    </Grid>
+</ContentPage>

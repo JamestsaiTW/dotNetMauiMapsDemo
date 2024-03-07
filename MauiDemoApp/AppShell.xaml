@@ -4,17 +4,30 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:pages="clr-namespace:MauiDemoApp.Pages"
-    Title="dotMaui Maps Demo">
+    Title=".NET Maps Demos">
 
     <ShellContent Title="Home" ContentTemplate="{DataTemplate pages:MainPage}" Route="MainPage">
         <ShellContent.Icon>
             <FontImageSource FontFamily="MR" Glyph="&#xea44;" />
         </ShellContent.Icon>
     </ShellContent>
-
-    <ShellContent Title="Default Maps Demo" ContentTemplate="{DataTemplate pages:DefaultMapsPage}" Route="DefaultMapsPage">
-        <ShellContent.Icon>
+    <FlyoutItem Title="Default Maps Demos - XAML">
+        <FlyoutItem.Icon>
             <FontImageSource FontFamily="MR" Glyph="&#xe7ee;" />
-        </ShellContent.Icon>
-    </ShellContent>
+        </FlyoutItem.Icon>
+        <Tab Title="MAUI">
+            <Tab.Icon>
+                <FontImageSource FontFamily="MR" Glyph="&#xea63;" />
+            </Tab.Icon>
+            <ShellContent Title="MAUI" ContentTemplate="{DataTemplate pages:DefaultMapsPage}" Route="DefaultMapsPage" />
+        </Tab>
+        <Tab Title="TAIWAN">
+            <Tab.Icon>
+                <FontImageSource FontFamily="MR" Glyph="&#xf205;" />
+            </Tab.Icon>
+            <ShellContent Title="TAIWAN" ContentTemplate="{DataTemplate pages:DefaultMapsTWPage}" Route="DefaultMapsTWPage" />
+        </Tab>
+    </FlyoutItem>
+
+
 </Shell>
