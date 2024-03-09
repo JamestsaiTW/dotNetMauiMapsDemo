@@ -28,6 +28,10 @@
             <ShellContent Title="TAIWAN" ContentTemplate="{DataTemplate pages:DefaultMapsTWPage}" Route="DefaultMapsTWPage" />
         </Tab>
     </FlyoutItem>
-
+    <ShellContent Title="Google Maps Demo" ContentTemplate="{DataTemplate pages:GoogleMapsPage}" Route="GooglePagePage">
+        <ShellContent.Icon>
+            <FontImageSource FontFamily="MR" Glyph="&#xef75;" />
+        </ShellContent.Icon>
+    </ShellContent>
 
 </Shell>

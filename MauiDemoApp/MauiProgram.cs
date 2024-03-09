@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Maui.GoogleMaps.Hosting;
+using Microsoft.Extensions.Logging;
+using Microsoft.Maui.Controls.Hosting;
 
 namespace MauiDemoApp
 {
@@ -14,9 +16,14 @@ namespace MauiDemoApp
                     fonts.AddFont("MaterialIcons-Regular.ttf", "MR");
                 })
                 .UseMauiMaps();
+#if ANDROID
+            builder.UseGoogleMaps();
+#elif IOS
+            builder.UseGoogleMaps("PASTE-YOUR-API-KEY-HERE");
+#endif
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
