@@ -1,6 +1,8 @@
-﻿using Maui.GoogleMaps.Hosting;
+﻿
+using Maui.GoogleMaps.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Maui.Controls.Hosting;
+using Microsoft.Maui.Hosting;
 
 namespace MauiDemoApp
 {

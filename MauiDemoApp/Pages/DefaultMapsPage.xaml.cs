@@ -1,4 +1,4 @@
-using Microsoft.Maui.Maps;
+using Microsoft.Maui.Controls;
 
 namespace MauiDemoApp.Pages;
 

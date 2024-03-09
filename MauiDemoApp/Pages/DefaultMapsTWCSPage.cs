@@ -1,5 +1,7 @@
 using Microsoft.Maui.Maps;
+using Microsoft.Maui.Controls;
 using Map = Microsoft.Maui.Controls.Maps.Map;
+using Microsoft.Maui.Devices.Sensors;
 
 namespace MauiDemoApp.Pages;
 

@@ -1,5 +1,6 @@
 using Maui.GoogleMaps;
 using Map = Maui.GoogleMaps.Map;
+using Microsoft.Maui.Controls;
 
 namespace MauiDemoApp.Pages;
 

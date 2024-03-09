@@ -423,4 +423,12 @@
         <Setter Property="SelectedTabColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray200}}" />
     </Style>
 
+    <!--
+        在此 issue 修正前，無法直接使用 Style 套用至 FontImageSource 上:
+        https://github.com/dotnet/maui/issues/13474
+    -->
+    <Style TargetType="FontImageSource">
+        <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
+        <Setter Property="FontFamily" Value="MR" />
+    </Style>
 </ResourceDictionary>

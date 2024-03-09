@@ -1,3 +1,4 @@
+using Microsoft.Maui.Controls;
 using Map = Microsoft.Maui.Controls.Maps.Map;
 
 namespace MauiDemoApp.Pages;

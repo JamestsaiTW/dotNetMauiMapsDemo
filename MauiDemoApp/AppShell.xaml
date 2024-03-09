@@ -8,73 +8,73 @@
 
     <ShellContent Title="Home" ContentTemplate="{DataTemplate pages:MainPage}" Route="MainPage">
         <ShellContent.Icon>
-            <FontImageSource FontFamily="MR" Glyph="&#xea44;" />
+            <FontImageSource FontFamily="MR" Glyph="&#xea44;" Color="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
         </ShellContent.Icon>
     </ShellContent>
     <FlyoutItem Title="Default Maps Demos - XAML">
         <FlyoutItem.Icon>
-            <FontImageSource FontFamily="MR" Glyph="&#xe7ee;" />
+            <FontImageSource FontFamily="MR" Glyph="&#xe7ee;" Color="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
         </FlyoutItem.Icon>
         <Tab Title="MAUI">
             <Tab.Icon>
-                <FontImageSource FontFamily="MR" Glyph="&#xea63;" />
+                <FontImageSource FontFamily="MR" Glyph="&#xea63;" Color="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
             </Tab.Icon>
             <ShellContent Title="MAUI" ContentTemplate="{DataTemplate pages:DefaultMapsPage}" Route="DefaultMapsPage" />
         </Tab>
         <Tab Title="TAIWAN">
             <Tab.Icon>
-                <FontImageSource FontFamily="MR" Glyph="&#xf205;" />
+                <FontImageSource FontFamily="MR" Glyph="&#xf205;" Color="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
             </Tab.Icon>
             <ShellContent Title="TAIWAN" ContentTemplate="{DataTemplate pages:DefaultMapsTWPage}" Route="DefaultMapsTWPage" />
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="Default Maps Demos - CS">
         <FlyoutItem.Icon>
-            <FontImageSource FontFamily="MR" Glyph="&#xf1d0;" />
+            <FontImageSource FontFamily="MR" Glyph="&#xf1d0;" Color="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
         </FlyoutItem.Icon>
         <Tab Title="MAUI">
             <Tab.Icon>
-                <FontImageSource FontFamily="MR" Glyph="&#xea63;" />
+                <FontImageSource FontFamily="MR" Glyph="&#xea63;" Color="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
             </Tab.Icon>
             <ShellContent Title="MAUI" ContentTemplate="{DataTemplate pages:DefaultMapsCSPage}" Route="DefaultMapsCSPage" />
         </Tab>
         <Tab Title="TAIWAN">
             <Tab.Icon>
-                <FontImageSource FontFamily="MR" Glyph="&#xf205;" />
+                <FontImageSource FontFamily="MR" Glyph="&#xf205;" Color="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
             </Tab.Icon>
             <ShellContent Title="TAIWAN" ContentTemplate="{DataTemplate pages:DefaultMapsTWCSPage}" Route="DefaultMapsTWCSPage" />
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="Google Maps Demos - XAML">
         <FlyoutItem.Icon>
-            <FontImageSource FontFamily="MR" Glyph="&#xef75;" />
+            <FontImageSource FontFamily="MR" Glyph="&#xef75;" Color="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
         </FlyoutItem.Icon>
         <Tab Title="MAUI">
             <Tab.Icon>
-                <FontImageSource FontFamily="MR" Glyph="&#xea63;" />
+                <FontImageSource FontFamily="MR" Glyph="&#xea63;" Color="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
             </Tab.Icon>
             <ShellContent Title="Google Maps Demo" ContentTemplate="{DataTemplate pages:GoogleMapsPage}" Route="GooglePagePage" />
         </Tab>
         <Tab Title="TAIWAN">
             <Tab.Icon>
-                <FontImageSource FontFamily="MR" Glyph="&#xf205;" />
+                <FontImageSource FontFamily="MR" Glyph="&#xf205;" Color="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
             </Tab.Icon>
             <ShellContent Title="TAIWAN" ContentTemplate="{DataTemplate pages:GoogleMapsTWPage}" Route="GoogleMapsTWPage" />
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="Google Maps Demos - CS">
         <FlyoutItem.Icon>
-            <FontImageSource FontFamily="MR" Glyph="&#xea1a;" />
+            <FontImageSource FontFamily="MR" Glyph="&#xea1a;" Color="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
         </FlyoutItem.Icon>
         <Tab Title="MAUI">
             <Tab.Icon>
-                <FontImageSource FontFamily="MR" Glyph="&#xea63;" />
+                <FontImageSource FontFamily="MR" Glyph="&#xea63;" Color="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
             </Tab.Icon>
             <ShellContent Title="MAUI" ContentTemplate="{DataTemplate pages:GoogleMapsCSPage}" Route="GoogleMapsCSPage" />
         </Tab>
         <Tab Title="TAIWAN">
             <Tab.Icon>
-                <FontImageSource FontFamily="MR" Glyph="&#xf205;" />
+                <FontImageSource FontFamily="MR" Glyph="&#xf205;" Color="{AppThemeBinding Light={StaticResource Gray900}, Dark={StaticResource White}}" />
             </Tab.Icon>
             <ShellContent Title="TAIWAN" ContentTemplate="{DataTemplate pages:GoogleMapsTWCSPage}" Route="GoogleMapsTWCSPage" />
         </Tab>
