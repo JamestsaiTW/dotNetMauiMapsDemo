@@ -6,6 +6,6 @@
     xmlns:googlemaps="clr-namespace:Maui.GoogleMaps;assembly=Maui.GoogleMaps"
     Title="Google Maps Demo">
     <Grid>
-        <googlemaps:Map InitialCameraUpdate="23.65743215, 120.9696147, 8, 0, 0" VerticalOptions="FillAndExpand" />
+        <googlemaps:Map InitialCameraUpdate="23.65743215, 120.9696147, 8, 0, 0" />
     </Grid>
 </ContentPage>

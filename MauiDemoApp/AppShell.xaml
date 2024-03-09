@@ -62,6 +62,22 @@
             <ShellContent Title="TAIWAN" ContentTemplate="{DataTemplate pages:GoogleMapsTWPage}" Route="GoogleMapsTWPage" />
         </Tab>
     </FlyoutItem>
-
+    <FlyoutItem Title="Google Maps Demos - CS">
+        <FlyoutItem.Icon>
+            <FontImageSource FontFamily="MR" Glyph="&#xea1a;" />
+        </FlyoutItem.Icon>
+        <Tab Title="MAUI">
+            <Tab.Icon>
+                <FontImageSource FontFamily="MR" Glyph="&#xea63;" />
+            </Tab.Icon>
+            <ShellContent Title="MAUI" ContentTemplate="{DataTemplate pages:GoogleMapsCSPage}" Route="GoogleMapsCSPage" />
+        </Tab>
+        <Tab Title="TAIWAN">
+            <Tab.Icon>
+                <FontImageSource FontFamily="MR" Glyph="&#xf205;" />
+            </Tab.Icon>
+            <ShellContent Title="TAIWAN" ContentTemplate="{DataTemplate pages:GoogleMapsTWCSPage}" Route="GoogleMapsTWCSPage" />
+        </Tab>
+    </FlyoutItem>
 
 </Shell>

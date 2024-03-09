@@ -7,6 +7,8 @@ public class DefaultMapsTWCSPage : ContentPage
 {
 	public DefaultMapsTWCSPage()
 	{
+        Title = "Default Maps Demo";
+
         var location = new Location(23.65743215, 120.9696147);
         var mapSpan = new MapSpan(location, 4, 1);
 
