@@ -28,10 +28,23 @@
             <ShellContent Title="TAIWAN" ContentTemplate="{DataTemplate pages:DefaultMapsTWPage}" Route="DefaultMapsTWPage" />
         </Tab>
     </FlyoutItem>
-    <ShellContent Title="Google Maps Demo" ContentTemplate="{DataTemplate pages:GoogleMapsPage}" Route="GooglePagePage">
-        <ShellContent.Icon>
+    <FlyoutItem Title="Google Maps Demos - XAML">
+        <FlyoutItem.Icon>
             <FontImageSource FontFamily="MR" Glyph="&#xef75;" />
-        </ShellContent.Icon>
-    </ShellContent>
+        </FlyoutItem.Icon>
+        <Tab Title="MAUI">
+            <Tab.Icon>
+                <FontImageSource FontFamily="MR" Glyph="&#xea63;" />
+            </Tab.Icon>
+            <ShellContent Title="Google Maps Demo" ContentTemplate="{DataTemplate pages:GoogleMapsPage}" Route="GooglePagePage" />
+        </Tab>
+        <Tab Title="TAIWAN">
+            <Tab.Icon>
+                <FontImageSource FontFamily="MR" Glyph="&#xf205;" />
+            </Tab.Icon>
+            <ShellContent Title="TAIWAN" ContentTemplate="{DataTemplate pages:GoogleMapsTWPage}" Route="GoogleMapsTWPage" />
+        </Tab>
+    </FlyoutItem>
+
 
 </Shell>

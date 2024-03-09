@@ -103,6 +103,9 @@
 	  <MauiXaml Update="Pages\DefaultMapsTWPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\GoogleMapsTWPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\GoogleMapsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

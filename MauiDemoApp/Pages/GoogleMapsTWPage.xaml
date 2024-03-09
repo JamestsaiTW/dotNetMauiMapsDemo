@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage
-    x:Class="MauiDemoApp.Pages.GoogleMapsPage"
+    x:Class="MauiDemoApp.Pages.GoogleMapsTWPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:googlemaps="clr-namespace:Maui.GoogleMaps;assembly=Maui.GoogleMaps"
-    Title="Google Maps Page">
+    Title="Google Maps Demo">
     <Grid>
-        <googlemaps:Map />
+        <googlemaps:Map InitialCameraUpdate="23.65743215, 120.9696147, 8, 0, 0" VerticalOptions="FillAndExpand" />
     </Grid>
 </ContentPage>

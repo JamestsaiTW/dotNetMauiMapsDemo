@@ -17,9 +17,9 @@ namespace MauiDemoApp
                 })
                 .UseMauiMaps();
 #if ANDROID
-            builder.UseGoogleMaps();
+                builder.UseGoogleMaps();
 #elif IOS
-            builder.UseGoogleMaps("PASTE-YOUR-API-KEY-HERE");
+                builder.UseGoogleMaps("PASTE-YOUR-API-KEY-HERE");
 #endif
 
 #if DEBUG
